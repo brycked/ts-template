@@ -17,8 +17,8 @@
   "main": "dist/index.js",
   "scripts": {
     "build": "npx tsc",
-    "watch": "npx tsc -w",
-    "format": "prettier --write ."
+    "format": "prettier --write . && npx eslint --fix --no-error-on-unmatched-pattern .",
+    "watch": "npx tsc -w"
   },
   "prettier": {
     "endOfLine": "lf",
@@ -31,6 +31,12 @@
     "useTabs": false
   },
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.56.0",
+    "eslint": "^8.36.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^15.6.1",
+    "eslint-plugin-promise": "^6.1.1",
     "prettier": "^2.8.7",
     "typescript": "^5.0.2"
   }
