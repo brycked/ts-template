@@ -21,6 +21,11 @@
     "prepare": "husky install",
     "watch": "npx tsc -w"
   },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
   "prettier": {
     "endOfLine": "lf",
     "printWidth": 80,
@@ -32,7 +37,9 @@
     "useTabs": false
   },
   "devDependencies": {
+    "@commitlint/config-conventional": "^17.4.4",
     "@typescript-eslint/eslint-plugin": "^5.56.0",
+    "commitlint": "^17.5.1",
     "eslint": "^8.36.0",
     "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-import": "^2.27.5",
