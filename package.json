@@ -1,0 +1,18 @@
+{
+  "name": "@brycked/ts-template",
+  "description": "A ts-template for my projects.",
+  "keywords": [
+    "ts-template"
+  ],
+  "homepage": "https://github.com/brycked/ts-template#readme",
+  "bugs": {
+    "url": "https://github.com/brycked/ts-template/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brycked/ts-template.git"
+  },
+  "license": "MIT",
+  "author": "Bricked",
+  "scripts": {}
+}

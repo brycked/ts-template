@@ -1,4 +1,4 @@
-# ts-template
+# @brycked/ts-template
 
 [![license](https://img.shields.io/github/license/brycked/ts-template)](LICENSE.md)
 
