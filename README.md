@@ -8,15 +8,6 @@ A ts-template for my projects.
 
 ## ToDo
 
-- [ ] Set `ts-template` as Git upstream remote
-
-```sh
-git remote add upstream git@github.com:brycked/ts-template.git
-git fetch upstream
-git rebase --onto TEMPLATE_COMMIT CURRENT_COMMIT main
-git push --force
-```
-
 - [ ] Find & replace `ts-template` with the name of this repository
 - [ ] Find & replace the description with a proper one
 - [ ] Add `NPM_TOKEN` as a [new repository secret](https://github.com/brycked/ts-template/settings/secrets/actions/new)
