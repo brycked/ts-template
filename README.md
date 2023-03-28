@@ -1,4 +1,4 @@
-# @brycked/ts-template
+# @bricked/ts-template
 
 [![license](https://img.shields.io/github/license/brycked/ts-template)](LICENSE.md)
 [![semantic-release: angular](https://img.shields.io/badge/semantic--release-angular-e10079?logo=semantic-release)](https://github.com/semantic-release/semantic-release)
@@ -25,9 +25,9 @@ git push --force
 ## Installation
 
 ```sh
-npm install @brycked/ts-template
-yarn add @brycked/ts-template
-pnpm add @brycked/ts-template
+npm install @bricked/ts-template
+yarn add @bricked/ts-template
+pnpm add @bricked/ts-template
 ```
 
 ## Usage
