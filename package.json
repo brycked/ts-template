@@ -14,5 +14,12 @@
   },
   "license": "MIT",
   "author": "Bricked",
-  "scripts": {}
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "npx tsc",
+    "watch": "npx tsc -w"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.2"
+  }
 }
