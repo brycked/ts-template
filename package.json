@@ -26,6 +26,17 @@
       "@commitlint/config-conventional"
     ]
   },
+  "lint-staged": {
+    "!(*.ts|package.json)": "npx prettier --ignore-unknown --write",
+    "*.ts": [
+      "npx prettier --write",
+      "npx eslint --fix"
+    ],
+    "package.json": [
+      "npx sort-package-json",
+      "npx prettier --write"
+    ]
+  },
   "prettier": {
     "endOfLine": "lf",
     "printWidth": 80,
