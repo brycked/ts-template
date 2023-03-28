@@ -18,6 +18,7 @@
   "scripts": {
     "build": "npx tsc",
     "format": "npx sort-package-json && npx prettier --write . && npx eslint --fix --no-error-on-unmatched-pattern .",
+    "prepare": "husky install",
     "watch": "npx tsc -w"
   },
   "prettier": {
@@ -37,6 +38,7 @@
     "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-n": "^15.6.1",
     "eslint-plugin-promise": "^6.1.1",
+    "husky": "^8.0.3",
     "prettier": "^2.8.7",
     "sort-package-json": "^2.4.1",
     "typescript": "^5.0.2"
