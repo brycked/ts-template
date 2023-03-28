@@ -6,6 +6,7 @@ A template for my projects.
 
 ## ToDo
 
+- [ ] Create a git branch on `main`
 - [ ] Find & replace `template` with the name of this repository
 - [ ] Find & replace the description with a proper one
 - [ ] Update the description and topics of the [GitHub repository](https://github.com/brycked/template)
