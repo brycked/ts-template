@@ -6,13 +6,6 @@ A template for my projects.
 
 ## ToDo
 
-- [ ] Create a git branch on `main`
-
-```sh
-git init
-git branch -M main
-```
-
 - [ ] Set the template as git upstream remote
 
 ```sh
