@@ -19,7 +19,7 @@
   "scripts": {
     "build": "npx tsc",
     "format": "npx sort-package-json && npx prettier --write . && npx eslint --fix --no-error-on-unmatched-pattern .",
-    "prepare": "husky install",
+    "prepare": "npx husky install",
     "watch": "npx tsc -w"
   },
   "commitlint": {
