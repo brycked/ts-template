@@ -17,7 +17,7 @@
   "main": "dist/index.js",
   "scripts": {
     "build": "npx tsc",
-    "format": "prettier --write . && npx eslint --fix --no-error-on-unmatched-pattern .",
+    "format": "npx sort-package-json && npx prettier --write . && npx eslint --fix --no-error-on-unmatched-pattern .",
     "watch": "npx tsc -w"
   },
   "prettier": {
@@ -38,6 +38,7 @@
     "eslint-plugin-n": "^15.6.1",
     "eslint-plugin-promise": "^6.1.1",
     "prettier": "^2.8.7",
+    "sort-package-json": "^2.4.1",
     "typescript": "^5.0.2"
   }
 }
