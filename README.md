@@ -8,7 +8,7 @@ A template for my projects.
 
 1. Find & replace `template` with the name of this repository
 2. Find & replace the description with a proper one
-3. Update description and keywords of the [GitHub repository](https://github.com/brycked/template)
+3. Update the description and topics of the [GitHub repository](https://github.com/brycked/template)
 4. Remove this section from the README
 
 ## Usage
