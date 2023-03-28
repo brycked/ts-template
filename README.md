@@ -19,6 +19,14 @@ git push --force
 - [ ] Find & replace the description with a proper one
 - [ ] Remove this section from the README
 
+## Installation
+
+```sh
+npm install @brycked/ts-template
+yarn add @brycked/ts-template
+pnpm add @brycked/ts-template
+```
+
 ## Usage
 
 `ts-template` can be used as a ts-template for my projects.
