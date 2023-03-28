@@ -16,7 +16,6 @@ git push --force
 ```
 - [ ] Find & replace `template` with the name of this repository
 - [ ] Find & replace the description with a proper one
-- [ ] Update the description and topics of the [GitHub repository](https://github.com/brycked/template)
 - [ ] Remove this section from the README
 
 ## Usage
