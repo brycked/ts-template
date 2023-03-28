@@ -99,6 +99,7 @@
     ]
   },
   "devDependencies": {
+    "@bricked/ts-config": "^1.2.0",
     "@commitlint/config-conventional": "^17.4.4",
     "@typescript-eslint/eslint-plugin": "^5.56.0",
     "commitlint": "^17.5.1",
