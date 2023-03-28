@@ -1,5 +1,6 @@
 {
   "name": "@brycked/ts-template",
+  "private": false,
   "description": "A ts-template for my projects.",
   "keywords": [
     "ts-template"
