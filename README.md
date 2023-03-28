@@ -17,6 +17,8 @@ git push --force
 
 - [ ] Find & replace `ts-template` with the name of this repository
 - [ ] Find & replace the description with a proper one
+- [ ] Add `NPM_TOKEN` as a [new repository secret](https://github.com/brycked/ts-template/settings/secrets/actions/new)
+- [ ] Remove `"dryRun": true` from the [`package.json`](./package.json)
 - [ ] Remove this section
 
 ## Installation
