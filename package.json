@@ -49,24 +49,7 @@
     "useTabs": false
   },
   "eslintConfig": {
-    "parser": "@typescript-eslint/parser",
-    "parserOptions": {
-      "ecmaVersion": 2020,
-      "project": "tsconfig.json",
-      "sourceType": "module"
-    },
-    "plugins": [
-      "@typescript-eslint"
-    ],
-    "extends": [
-      "plugin:@typescript-eslint/strict",
-      "prettier"
-    ],
-    "rules": {
-      "@typescript-eslint/no-namespace": "off",
-      "@typescript-eslint/prefer-literal-enum-member": "off"
-    },
-    "root": true
+    "extends": "@bricked"
   },
   "release": {
     "branches": [
@@ -99,6 +82,7 @@
     ]
   },
   "devDependencies": {
+    "@bricked/eslint-config": "^1.0.0",
     "@bricked/ts-config": "^1.2.0",
     "@commitlint/config-conventional": "^17.4.4",
     "@typescript-eslint/eslint-plugin": "^5.56.0",
