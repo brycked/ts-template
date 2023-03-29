@@ -23,9 +23,7 @@
     "watch": "npx tsc -w"
   },
   "commitlint": {
-    "extends": [
-      "@commitlint/config-conventional"
-    ]
+    "extends": "@commitlint/config-conventional"
   },
   "lint-staged": {
     "!(*.ts|package.json)": "npx prettier --ignore-unknown --write",
@@ -65,9 +63,7 @@
       [
         "@semantic-release/git",
         {
-          "assets": [
-            "CHANGELOG.md"
-          ]
+          "assets": "CHANGELOG.md"
         }
       ]
     ]
