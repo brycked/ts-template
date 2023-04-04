@@ -8,7 +8,8 @@ A template for typescript projects.
 
 ## ToDo
 
-- [ ] Find & replace `ts-template` with the name of this repository
+- [ ] [Create](https://github.com/brycked/ts-template/generate) a new repository from this template
+- [ ] Find & replace `ts-template` with the name of the new repository
 - [ ] Find & replace the description with a proper one
 - [ ] Optionally make the [installation guide](#installation) install as `devDependency`
 - [ ] Add `NPM_TOKEN` as a [new repository secret](https://github.com/brycked/ts-template/settings/secrets/actions/new)
