@@ -47,20 +47,20 @@
   "devDependencies": {
     "@bricked/eslint-config": "^1.0.0",
     "@bricked/prettier-config": "^1.0.0",
-    "@bricked/semantic-release-config": "^1.0.0",
-    "@bricked/ts-config": "^1.2.0",
+    "@bricked/semantic-release-config": "^1.1.0",
+    "@bricked/ts-config": "^1.2.2",
     "@commitlint/config-conventional": "^17.4.4",
     "@typescript-eslint/eslint-plugin": "^5.56.0",
     "commitlint": "^17.5.1",
-    "eslint": "^8.36.0",
+    "eslint": "^8.37.0",
     "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-import": "^2.27.5",
-    "eslint-plugin-n": "^15.6.1",
+    "eslint-plugin-n": "^15.7.0",
     "eslint-plugin-promise": "^6.1.1",
     "husky": "^8.0.3",
     "prettier": "^2.8.7",
     "sort-package-json": "^2.4.1",
-    "typescript": "^5.0.2"
+    "typescript": "^5.0.3"
   },
   "publishConfig": {
     "access": "public"
