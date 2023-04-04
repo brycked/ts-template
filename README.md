@@ -35,3 +35,11 @@ pnpm add --dev @bricked/ts-template
 ## Usage
 
 `ts-template` can be used as a template for typescript projects.
+
+## Building
+
+### Building Publicly
+
+Pulls to the repository will automatically be built with [semantic-release](https://github.com/semantic-release/npm).
+The built package can be found on [npm](https://www.npmjs.com/package/@bricked/ts-template?activeTab=code) or in the
+[latest github release](https://github.com/brycked/ts-template/releases/latest).
