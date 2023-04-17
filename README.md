@@ -12,6 +12,13 @@ A template for typescript projects.
 - [ ] Find & replace `ts-template` with the name of the new repository
 - [ ] Find & replace the description with a proper one
 - [ ] Optionally make the [installation guide](#installation) install as `devDependency`
+
+```sh
+npm install --save-dev @bricked/ts-template
+yarn add --dev @bricked/ts-template
+pnpm add --dev @bricked/ts-template
+```
+
 - [ ] Add `NPM_TOKEN` as a [new repository secret](https://github.com/brycked/ts-template/settings/secrets/actions/new)
 - [ ] Remove `"dryRun": true` from the [`package.json`](./package.json)
 - [ ] Remove this section
@@ -25,14 +32,6 @@ npm install @bricked/ts-template
 yarn add @bricked/ts-template
 pnpm add @bricked/ts-template
 ```
-
-<!--
-```sh
-npm install --save-dev @bricked/ts-template
-yarn add --dev @bricked/ts-template
-pnpm add --dev @bricked/ts-template
-```
--->
 
 ## Usage
 
