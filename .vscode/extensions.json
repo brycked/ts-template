@@ -1,3 +1,7 @@
 {
-  "recommendations": ["bierner.github-markdown-preview", "esbenp.prettier-vscode"]
+  "recommendations": [
+    "bierner.github-markdown-preview",
+    "esbenp.prettier-vscode",
+    "dbaeumer.vscode-eslint"
+  ]
 }
