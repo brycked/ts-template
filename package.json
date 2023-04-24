@@ -17,10 +17,10 @@
   "author": "Bricked",
   "main": "dist/index.js",
   "scripts": {
-    "build": "npx tsc",
+    "build": "npx tsup",
     "format": "npx sort-package-json && npx prettier --write . && npx eslint --fix --no-error-on-unmatched-pattern .",
     "prepare": "npx husky install",
-    "watch": "npx tsc -w"
+    "watch": "npx tsup --watch"
   },
   "commitlint": {
     "extends": "@commitlint/config-conventional"
@@ -48,7 +48,7 @@
     "@bricked/eslint-config": "^1.0.0",
     "@bricked/prettier-config": "^1.0.0",
     "@bricked/semantic-release-config": "^1.1.0",
-    "@bricked/ts-config": "^1.2.2",
+    "@bricked/ts-config": "^1.2.3",
     "@commitlint/config-conventional": "^17.6.1",
     "@typescript-eslint/eslint-plugin": "^5.59.0",
     "commitlint": "^17.6.1",
@@ -60,6 +60,7 @@
     "husky": "^8.0.3",
     "prettier": "^2.8.8",
     "sort-package-json": "^2.4.1",
+    "tsup": "^6.7.0",
     "typescript": "^5.0.4"
   },
   "publishConfig": {
