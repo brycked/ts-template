@@ -9,6 +9,7 @@ export default defineConfig({
   bundle: true,
   skipNodeModulesBundle: true,
   treeshake: true,
+  minify: false,
   sourcemap: true,
   dts: true,
 });
