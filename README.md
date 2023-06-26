@@ -4,7 +4,7 @@
 [![semantic-release: angular](https://img.shields.io/badge/semantic--release-angular-e10079?logo=semantic-release)](https://github.com/semantic-release/semantic-release)
 [![version](https://img.shields.io/npm/v/@bricked/ts-template?color=crimson&logo=npm)](https://www.npmjs.com/package/@bricked/ts-template)
 
-A template for typescript projects.
+A template for TypeScript projects.
 
 ## ToDo
 
@@ -35,7 +35,7 @@ pnpm add @bricked/ts-template
 
 ## Usage
 
-`ts-template` can be used as a template for typescript projects.
+`ts-template` can be used as a template for TypeScript projects.
 
 ## Building
 

@@ -1,7 +1,7 @@
 {
   "name": "@bricked/ts-template",
   "private": false,
-  "description": "A template for typescript projects.",
+  "description": "A template for TypeScript projects.",
   "keywords": [
     "ts-template"
   ],
