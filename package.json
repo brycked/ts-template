@@ -51,19 +51,19 @@
     "@bricked/ts-config": "^1.2.3",
     "@bricked/tsup-config": "^1.0.0",
     "@commitlint/config-conventional": "^17.6.5",
-    "@typescript-eslint/eslint-plugin": "^5.59.11",
+    "@typescript-eslint/eslint-plugin": "^6.5.0",
     "commitlint": "^17.6.6",
-    "eslint": "^8.39.0",
+    "eslint": "^8.48.0",
     "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-import": "^2.27.5",
-    "eslint-plugin-n": "^15.7.0",
+    "eslint-plugin-n": "^16.0.2",
     "eslint-plugin-promise": "^6.1.1",
     "husky": "^8.0.3",
     "lint-staged": "^13.2.2",
     "prettier": "^2.8.8",
     "sort-package-json": "^2.4.1",
-    "tsup": "^6.7.0",
-    "typescript": "^5.0.4"
+    "tsup": "^7.2.0",
+    "typescript": "^5.2.2"
   },
   "publishConfig": {
     "access": "public"
