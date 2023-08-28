@@ -5,13 +5,13 @@
   "keywords": [
     "ts-template"
   ],
-  "homepage": "https://github.com/brycked/ts-template#readme",
+  "homepage": "https://github.com/brckd/ts-template#readme",
   "bugs": {
-    "url": "https://github.com/brycked/ts-template/issues"
+    "url": "https://github.com/brckd/ts-template/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/brycked/ts-template.git"
+    "url": "git+https://github.com/brckd/ts-template.git"
   },
   "license": "MIT",
   "author": "Bricked",
