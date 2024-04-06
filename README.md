@@ -6,6 +6,9 @@
 
 A template for TypeScript projects.
 
+> [!Warning]
+> This project has been archived because I tend to use [Bun](bun.sh)'s builtin tools nowadays.
+
 ## ToDo
 
 - [ ] [Create](https://github.com/brckd/ts-template/generate) a new repository from this template
